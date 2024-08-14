@@ -1,4 +1,10 @@
-import { createRoot } from 'react-dom/client';
+const App = () => {
+  return (
+    <div>
+      <h1>Main</h1>
+      <p>Testimate</p>
+    </div>
+  );
+};
 
-const root = createRoot(document.getElementById('app'));
-root.render(<h2>Hello from React App.tsx!</h2>);
+export default App;

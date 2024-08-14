@@ -31,4 +31,4 @@ import './index.scss';
 console.log('👋 This message is being logged by "renderer.ts", included via Vite');
 
 // Add this to the end of the renderer.ts file
-import './react/App';
+import './react/Index';
